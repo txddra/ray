@@ -1,5 +1,7 @@
 const Ray = function() {
-  
+  return {
+
+  }
 }
 
 
