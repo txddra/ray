@@ -1,6 +1,6 @@
-const Ray = function() {
+const Ray = function(length =0) {
   return {
-
+length : length
   }
 }
 
