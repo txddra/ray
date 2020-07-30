@@ -16,6 +16,9 @@ includes: function(given){
         if(this[i] === given){
 return true
         }
+        else if(this[i]!== given){
+return false
+        }
     }
     // if(given === true){
 
