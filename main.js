@@ -1,5 +1,5 @@
 const Ray = function(length =0) {
-  return {
+  const ray = {
 length : length,
 push: function(value){
 this[this.length++]=value;
@@ -12,21 +12,23 @@ pop: function(){
 
 },
 includes: function(given){
+
     for(let i =0; i < this.length; i++){
         if(this[i] === given){
 return true
         }
-        else if(this[i]!== given){
-return false
-        }
-    }
+        // else if(this[i]!== given){
+
+        }return false
+    },
     // if(given === true){
 
 // return true
     // }
 
 }
+return ray
 }
-}
+
 
 module.exports = Ray
